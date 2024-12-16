@@ -6,7 +6,7 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 ### Preprocessing 
 - stop-word removal
 - lemmatization
-- tokenization
+- Tf-idftokenization
 
 ### Training 
 - Logistic Regression
