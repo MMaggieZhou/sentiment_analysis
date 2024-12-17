@@ -9,7 +9,9 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - Tf-idftokenization
 
 ### Training 
+- Naive Bayes
 - Logistic Regression
+- Support Vector Machine (With Linear Kernel)
 
 ### Library
 - Panda
