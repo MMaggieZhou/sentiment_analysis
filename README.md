@@ -1,4 +1,4 @@
-# [Entity Sentiment Analysis with Tweets](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/twitter_entity_sentiment_analysis_v2.ipynb)
+# [Sentiment Classificatin](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/twitter_entity_sentiment_analysis_v2.ipynb)
 ## Data 
 medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter-entity-sentiment-analysis/data)
 
