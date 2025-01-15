@@ -43,3 +43,30 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - pyLDAvis
 - nltk
 - openai
+
+# [Exploratory Data Analysis](http://localhost:8888/lab/tree/sentiment_analysis/eda_tweets.ipynb)
+## Data Clearning and Processing 
+- Duplicate Data
+- Empty Data
+- Ordinal Encoding for Categorical Data 
+## Data Distribution 
+- Imbalanced Data
+### Numerical Data 
+- AVG, MAX, Mean, Percentile, std
+### Text Data 
+- Text Length Distribution 
+- Ngram: 
+- Visualizatin: wordcloud, histogram 
+### Categorical Data 
+- Label Distribution
+- Visualization: pie chart
+## Covariance Analysis
+- Pearson Correlation Coefficient
+- Visualization: heatmap
+## Library 
+- sklean
+- scipy
+- nltk
+- matplotlib
+- wordcloud
+- seaborn
