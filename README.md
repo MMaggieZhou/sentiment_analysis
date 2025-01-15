@@ -28,4 +28,18 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - spaCy
 - matplotlib
 
+# [Topic Modeling](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/topic_modeling.ipynb)
+## preprocessing 
+- Bad of Words (BOW)
 
+## Training 
+- Latent Dirichlet Allocation (LDA)
+
+## Topic Summarization 
+- Prompt Engineering
+  
+## Library 
+- gensim
+- pyLDAvis
+- nltk
+- openai
