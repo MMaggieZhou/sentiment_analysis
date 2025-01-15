@@ -4,16 +4,28 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 
 ## Techniques 
 ### Preprocessing 
-- stop-word removal
-- lemmatization
-- Tf-idftokenization
+- Data Cleaning
+- Text Processing
+  - Stop-word Removal
+  - Lemmatization
+  - Tf-idf Tokenization
+- Categorical Data Processing
+  - One-Hot Cncoding
+  - Label Encoding 
 
 ### Training 
-- Naive Bayes
 - Logistic Regression
-- Support Vector Machine (With Linear Kernel)
+- Support Vector Machine (With Linear Kernel) - LinearSVC
+
+### Evaluation 
+- Accuracy
+- Confusion Metric
+- AUC-ROC
 
 ### Library
 - Panda
 - sklearn
 - spaCy
+- matplotlib
+
+
