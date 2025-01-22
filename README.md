@@ -35,6 +35,9 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 | Setup    | Accuracy | AUC-ROC | F1 Score | Precision | Recall |
 | -------- | -------- | ------- | -------- | --------- | ------ |
 | [Tf-idf + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 94.48    |
+| [Tf-idf + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 96.87    |
+| [sentence embedding (sbert) + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 86.00 |
+| [sentence embedding (sbert) + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 86.00 |
 
 
 # [Topic Modeling](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/topic_modeling.ipynb)
