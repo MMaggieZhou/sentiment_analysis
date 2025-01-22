@@ -9,6 +9,8 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
   - Stop-word Removal
   - Lemmatization
   - Tf-idf Tokenization
+  - Text Embedding
+  - Sentence Embedding
 - Categorical Data Processing
   - One-Hot Cncoding
   - Label Encoding 
@@ -16,6 +18,7 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 ### Training 
 - Logistic Regression
 - Support Vector Machine (With Linear Kernel) - LinearSVC
+- BErT
 
 ### Evaluation 
 - Accuracy
@@ -27,6 +30,12 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - sklearn
 - spaCy
 - matplotlib
+  
+## Results Comparison 
+| Setup    | Accuracy | AUC-ROC | F1 Score | Precision | Recall |
+| -------- | -------- | ------- | -------- | --------- | ------ |
+| [Tf-idf + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 94.48    |
+
 
 # [Topic Modeling](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/topic_modeling.ipynb)
 ## preprocessing 
