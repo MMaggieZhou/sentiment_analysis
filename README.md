@@ -37,6 +37,9 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - torch
 - transformers
 - sentence_transformers
+## Pretrained Models 
+- bert-base-uncased
+- all-MiniLM-L6-v2
   
 ## Results Comparison 
 | Setup    | Accuracy | AUC-ROC | F1 Score | Precision | Recall |
