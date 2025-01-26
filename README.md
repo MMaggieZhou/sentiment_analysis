@@ -5,6 +5,9 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 ## Techniques 
 ### Preprocessing 
 - Data Cleaning
+  - To Lower Case
+  - unicode normalization
+  - special characters removal 
 - Text Processing
   - Stop-word Removal
   - Lemmatization
@@ -18,18 +21,22 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 ### Training 
 - Logistic Regression
 - Support Vector Machine (With Linear Kernel) - LinearSVC
-- BErT
+- BERT with AdamW optimizer
 
 ### Evaluation 
 - Accuracy
 - Confusion Metric
 - AUC-ROC
+- F1, Precision, Recall 
 
 ### Library
 - Panda
 - sklearn
 - spaCy
 - matplotlib
+- torch
+- transformers
+- sentence_transformers
   
 ## Results Comparison 
 | Setup    | Accuracy | AUC-ROC | F1 Score | Precision | Recall |
@@ -58,6 +65,23 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 - pyLDAvis
 - nltk
 - openai
+
+# [Topic Meling with BERTopic + OpenAI ](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/bertopic%2Bchatgpt.ipynb)
+## preprocessing 
+- Data Cleaning
+  - To Lower Case
+  - unicode normalization
+  - special characters removal
+## Training 
+- BERTopic
+  
+## Topic Summarization 
+- Prompt Engineering
+
+## Library
+- bertopic
+- hdbscan
+- openai 
 
 # [Exploratory Data Analysis](http://localhost:8888/lab/tree/sentiment_analysis/eda_tweets.ipynb)
 ## Data Clearning and Processing 
