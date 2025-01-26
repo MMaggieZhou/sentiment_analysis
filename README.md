@@ -81,7 +81,10 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 ## Library
 - bertopic
 - hdbscan
-- openai 
+- openai
+
+## References 
+- [DL foundation](https://docs.google.com/document/d/1-srAw0XsSiD_-CdzYtD-2r4Y7on-4JySuE-qp7GY6Io) 
 
 # [Exploratory Data Analysis](http://localhost:8888/lab/tree/sentiment_analysis/eda_tweets.ipynb)
 ## Data Clearning and Processing 
