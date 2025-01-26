@@ -35,12 +35,12 @@ medium size data from [kaggle](https://www.kaggle.com/datasets/jp797498e/twitter
 | Setup    | Accuracy | AUC-ROC | F1 Score | Precision | Recall |
 | -------- | -------- | ------- | -------- | --------- | ------ |
 | (CPU) [Tf-idf + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 0.90   | | 0.90 | 0.90 | 0.90 |
-| (CPU) [Tf-idf + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 0.9687    |
-| (CPU) [sentence embedding (sbert) + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 0.8600 |
-| (CPU) [sentence embedding (sbert) + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 0.8600 |
-| (GPU) [bert embedding + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_embedding.ipynb) | 0.8564|
-| (GPU) [bert embedding + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_embedding.ipynb) | 0.8564|
-| (GPU) [finetune pretrained bert model](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_finetune.ipynb) | 0.9853|
+| (CPU) [Tf-idf + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_tfidf.ipynb)  | 0.9687    | | 0.94 | 0.94 | 0.94|
+| (GPU) [sentence embedding (sbert) + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 0.62 |  | 0.62 | 0.62 | 0.62|
+| (GPU) [sentence embedding (sbert) + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_sbert_embedding.ipynb) | 0.62 | | 0.61 | 0.62 | 0.62|
+| (GPU) [bert embedding + Logistic Regression](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_embedding.ipynb) | 0.60| | 0.59 | 0.60 | 0.60 | 
+| (GPU) [bert embedding + SVM](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_embedding.ipynb) | 0.60| | 0.59 | 0.60 | 0.60|
+| (GPU) [finetune pretrained bert model](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/sentiment_analysis_bert_finetune.ipynb) | 0.97| | 0.97 | 0.97 | 0.97|
 
 
 # [Topic Modeling](https://github.com/MMaggieZhou/sentiment_analysis/blob/main/topic_modeling.ipynb)
